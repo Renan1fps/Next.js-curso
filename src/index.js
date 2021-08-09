@@ -4,12 +4,13 @@ import ReactDOM from 'react-dom';
 //import Form from './components/Forms'
 //import ArrayState from './components/ArrayState'
 //import UseEfct from './components/UseEfct'
-import ReqHttp from './components/ReqHttp'
+//import ReqHttp from './components/ReqHttp'
+import ConsumoApi from './components/Consumo-api'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <ReqHttp/>
+    <ConsumoApi/>
   </React.StrictMode>,
   document.getElementById('root')
 );
