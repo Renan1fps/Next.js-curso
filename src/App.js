@@ -2,7 +2,7 @@ import Name from "./components/Name";
 import {useState} from "react";
 
 function App(){
-  const [Student,setStudent,] = useState("Renan")
+  const [Student,setStudent] = useState("Renan")
 
   function handleChangeName(name){
     setStudent(name)
