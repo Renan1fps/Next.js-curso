@@ -6,12 +6,13 @@ import ReactDOM from 'react-dom';
 //import UseEfct from './components/UseEfct'
 //import ReqHttp from './components/ReqHttp'
 //import ConsumoApi from './components/Consumo-api'
-import Routes from './routes'
+//import Routes from './routes'
+import StyleCom from './components/StyleCom'
 
 
 ReactDOM.render(
   <React.StrictMode>
-   <Routes/>
+   <StyleCom/>
   </React.StrictMode>,
   document.getElementById('root')
 );
